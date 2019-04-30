@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Enter your code below */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+hr {
+  margin-bottom: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 902px;
+  height: 100px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: flex;
+  padding-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: lightgrey;
+}
+main {
+  line-height: 1.3em;
+}
+.services-header-img {
+  width: 100%;
+}
+#services {
+  margin: 40px 0;
+}
+#services h1 {
+  font-size: 1.8em;
+}
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 420px;
+  height: 250px;
+  margin: 20px 0;
+  padding: 25px;
+  background-color: #f4f3f4;
+  border: 1px solid black;
+}
+.card button {
+  align-self: flex-start;
+  margin-top: 15px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#facts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#facts-content {
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  width: 400px;
+}
+#facts-content ul {
+  margin-top: 20px;
+}
+#facts-content ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+#copyright {
+  padding: 100px;
+  text-align: center;
+}
